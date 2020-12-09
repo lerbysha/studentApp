@@ -62,13 +62,13 @@
 		81F18947245E9E4F00F216DB /* ApplicationFillingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F18946245E9E4F00F216DB /* ApplicationFillingTableViewCell.swift */; };
 		81F18950245E9EB500F216DB /* ApplicationFillingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F1894D245E9EB400F216DB /* ApplicationFillingAPI.swift */; };
 		81F18951245E9EB500F216DB /* ApplicationFillingProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F1894E245E9EB400F216DB /* ApplicationFillingProvider.swift */; };
-		81FAB4C72430F08200309FA4 /* AdditionalInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FAB4C62430F08200309FA4 /* AdditionalInformationViewController.swift */; };
-		81FAB4C92430F09000309FA4 /* AdditionalInformationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FAB4C82430F09000309FA4 /* AdditionalInformationPresenter.swift */; };
-		81FAB4CB2430F09B00309FA4 /* AdditionalInformationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FAB4CA2430F09B00309FA4 /* AdditionalInformationInteractor.swift */; };
-		81FAB4CD2430F0B200309FA4 /* AdditionalInformationConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FAB4CC2430F0B200309FA4 /* AdditionalInformationConfigurator.swift */; };
-		81FAB4D02430F0D400309FA4 /* AdditionalInformationAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FAB4CF2430F0D400309FA4 /* AdditionalInformationAPI.swift */; };
-		81FAB4D22430F0DB00309FA4 /* AdditionalInformationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FAB4D12430F0DB00309FA4 /* AdditionalInformationProvider.swift */; };
-		81FAB4D52430F44300309FA4 /* AdditionalInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FAB4D42430F44300309FA4 /* AdditionalInformationView.swift */; };
+		81FAB4C72430F08200309FA4 /* TimetableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FAB4C62430F08200309FA4 /* TimetableViewController.swift */; };
+		81FAB4C92430F09000309FA4 /* TimetablePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FAB4C82430F09000309FA4 /* TimetablePresenter.swift */; };
+		81FAB4CB2430F09B00309FA4 /* TimetableInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FAB4CA2430F09B00309FA4 /* TimetableInteractor.swift */; };
+		81FAB4CD2430F0B200309FA4 /* TimetableConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FAB4CC2430F0B200309FA4 /* TimetableConfigurator.swift */; };
+		81FAB4D02430F0D400309FA4 /* TimetableAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FAB4CF2430F0D400309FA4 /* TimetableAPI.swift */; };
+		81FAB4D22430F0DB00309FA4 /* TimetableProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FAB4D12430F0DB00309FA4 /* TimetableProvider.swift */; };
+		81FAB4D52430F44300309FA4 /* TimetableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FAB4D42430F44300309FA4 /* TimetableView.swift */; };
 		81FAB4D72431206400309FA4 /* StudentTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FAB4D62431206400309FA4 /* StudentTextView.swift */; };
 		CA1FCA7E8F838B8B1CBB7880 /* Pods_Student.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6D616AAEC5FFD30434ADA0 /* Pods_Student.framework */; };
 /* End PBXBuildFile section */
@@ -146,13 +146,13 @@
 		81F18946245E9E4F00F216DB /* ApplicationFillingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationFillingTableViewCell.swift; sourceTree = "<group>"; };
 		81F1894D245E9EB400F216DB /* ApplicationFillingAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationFillingAPI.swift; sourceTree = "<group>"; };
 		81F1894E245E9EB400F216DB /* ApplicationFillingProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationFillingProvider.swift; sourceTree = "<group>"; };
-		81FAB4C62430F08200309FA4 /* AdditionalInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalInformationViewController.swift; sourceTree = "<group>"; };
-		81FAB4C82430F09000309FA4 /* AdditionalInformationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalInformationPresenter.swift; sourceTree = "<group>"; };
-		81FAB4CA2430F09B00309FA4 /* AdditionalInformationInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalInformationInteractor.swift; sourceTree = "<group>"; };
-		81FAB4CC2430F0B200309FA4 /* AdditionalInformationConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalInformationConfigurator.swift; sourceTree = "<group>"; };
-		81FAB4CF2430F0D400309FA4 /* AdditionalInformationAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalInformationAPI.swift; sourceTree = "<group>"; };
-		81FAB4D12430F0DB00309FA4 /* AdditionalInformationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalInformationProvider.swift; sourceTree = "<group>"; };
-		81FAB4D42430F44300309FA4 /* AdditionalInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalInformationView.swift; sourceTree = "<group>"; };
+		81FAB4C62430F08200309FA4 /* TimetableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableViewController.swift; sourceTree = "<group>"; };
+		81FAB4C82430F09000309FA4 /* TimetablePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetablePresenter.swift; sourceTree = "<group>"; };
+		81FAB4CA2430F09B00309FA4 /* TimetableInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableInteractor.swift; sourceTree = "<group>"; };
+		81FAB4CC2430F0B200309FA4 /* TimetableConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableConfigurator.swift; sourceTree = "<group>"; };
+		81FAB4CF2430F0D400309FA4 /* TimetableAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableAPI.swift; sourceTree = "<group>"; };
+		81FAB4D12430F0DB00309FA4 /* TimetableProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableProvider.swift; sourceTree = "<group>"; };
+		81FAB4D42430F44300309FA4 /* TimetableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableView.swift; sourceTree = "<group>"; };
 		81FAB4D62431206400309FA4 /* StudentTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTextView.swift; sourceTree = "<group>"; };
 		AD233D9F06D53940B764C156 /* Pods-Abiturient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abiturient.debug.xcconfig"; path = "Target Support Files/Pods-Abiturient/Pods-Abiturient.debug.xcconfig"; sourceTree = "<group>"; };
 		BC6D616AAEC5FFD30434ADA0 /* Pods_Student.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Student.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -320,7 +320,7 @@
 				81DD4BF2244FFF9F00A43CE7 /* FloatingPanelBuilder.swift */,
 				81010D3F2420086900B26E67 /* Extensions */,
 				81F1893A245E9DCE00F216DB /* ApplicationFilling */,
-				81FAB4C52430F01600309FA4 /* AdditionalInformation */,
+				81FAB4C52430F01600309FA4 /* Timetable */,
 				818ED4232402A15600F4CFB4 /* Authorization */,
 				814BF44724328E6E00751EDD /* Stats */,
 				81DD4BF4245000E900A43CE7 /* ParametrPicker */,
@@ -417,24 +417,24 @@
 			path = Provider;
 			sourceTree = "<group>";
 		};
-		81FAB4C52430F01600309FA4 /* AdditionalInformation */ = {
+		81FAB4C52430F01600309FA4 /* Timetable */ = {
 			isa = PBXGroup;
 			children = (
-				81FAB4CC2430F0B200309FA4 /* AdditionalInformationConfigurator.swift */,
-				81FAB4CA2430F09B00309FA4 /* AdditionalInformationInteractor.swift */,
-				81FAB4C82430F09000309FA4 /* AdditionalInformationPresenter.swift */,
-				81FAB4C62430F08200309FA4 /* AdditionalInformationViewController.swift */,
+				81FAB4CC2430F0B200309FA4 /* TimetableConfigurator.swift */,
+				81FAB4CA2430F09B00309FA4 /* TimetableInteractor.swift */,
+				81FAB4C82430F09000309FA4 /* TimetablePresenter.swift */,
+				81FAB4C62430F08200309FA4 /* TimetableViewController.swift */,
 				81FAB4D32430F32600309FA4 /* View */,
 				81FAB4CE2430F0C300309FA4 /* Provider */,
 			);
-			path = AdditionalInformation;
+			path = Timetable;
 			sourceTree = "<group>";
 		};
 		81FAB4CE2430F0C300309FA4 /* Provider */ = {
 			isa = PBXGroup;
 			children = (
-				81FAB4CF2430F0D400309FA4 /* AdditionalInformationAPI.swift */,
-				81FAB4D12430F0DB00309FA4 /* AdditionalInformationProvider.swift */,
+				81FAB4CF2430F0D400309FA4 /* TimetableAPI.swift */,
+				81FAB4D12430F0DB00309FA4 /* TimetableProvider.swift */,
 			);
 			path = Provider;
 			sourceTree = "<group>";
@@ -442,7 +442,7 @@
 		81FAB4D32430F32600309FA4 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				81FAB4D42430F44300309FA4 /* AdditionalInformationView.swift */,
+				81FAB4D42430F44300309FA4 /* TimetableView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -575,19 +575,19 @@
 				81DD4BFF2450018400A43CE7 /* ParametrPickerView.swift in Sources */,
 				81DD4C022450019900A43CE7 /* ParametrPickerProvider.swift in Sources */,
 				813B62CA241D31B6009CA610 /* EstimationView.swift in Sources */,
-				81FAB4D02430F0D400309FA4 /* AdditionalInformationAPI.swift in Sources */,
+				81FAB4D02430F0D400309FA4 /* TimetableAPI.swift in Sources */,
 				813B04DB2422AACD00573AA1 /* StudStatsController.swift in Sources */,
 				813B04D92422AABB00573AA1 /* StudStatsConfigurator.swift in Sources */,
 				81010D412420087F00B26E67 /* UIColorExtension.swift in Sources */,
-				81FAB4D22430F0DB00309FA4 /* AdditionalInformationProvider.swift in Sources */,
+				81FAB4D22430F0DB00309FA4 /* TimetableProvider.swift in Sources */,
 				818ED4252402A18900F4CFB4 /* AuthorizationViewController.swift in Sources */,
 				818ED4102402982A00F4CFB4 /* AppDelegate.swift in Sources */,
 				81F1893E245E9E1500F216DB /* ApplicationFillingInteractor.swift in Sources */,
 				81DD4C04245001A100A43CE7 /* ParametrPickerAPI.swift in Sources */,
-				81FAB4CB2430F09B00309FA4 /* AdditionalInformationInteractor.swift in Sources */,
+				81FAB4CB2430F09B00309FA4 /* TimetableInteractor.swift in Sources */,
 				81F18947245E9E4F00F216DB /* ApplicationFillingTableViewCell.swift in Sources */,
-				81FAB4C92430F09000309FA4 /* AdditionalInformationPresenter.swift in Sources */,
-				81FAB4CD2430F0B200309FA4 /* AdditionalInformationConfigurator.swift in Sources */,
+				81FAB4C92430F09000309FA4 /* TimetablePresenter.swift in Sources */,
+				81FAB4CD2430F0B200309FA4 /* TimetableConfigurator.swift in Sources */,
 				81F18942245E9E2F00F216DB /* ApplicationFillingViewController.swift in Sources */,
 				81DD4BF62450015700A43CE7 /* ParametrPickerConfigurator.swift in Sources */,
 				818ED42C2402A62E00F4CFB4 /* AuthorizationInteractor.swift in Sources */,
@@ -600,7 +600,7 @@
 				813B62CB241D31B6009CA610 /* EstimationConfigurator.swift in Sources */,
 				814BF44B24328E9C00751EDD /* StatsInteractor.swift in Sources */,
 				813B62CD241D31B6009CA610 /* EstimationPresenter.swift in Sources */,
-				81FAB4C72430F08200309FA4 /* AdditionalInformationViewController.swift in Sources */,
+				81FAB4C72430F08200309FA4 /* TimetableViewController.swift in Sources */,
 				818ED4282402A1BA00F4CFB4 /* AuthorizationView.swift in Sources */,
 				814BF44F24328EBC00751EDD /* StatsViewController.swift in Sources */,
 				81964ADA2480A64700809665 /* ApplicationFillingHelpViewController.swift in Sources */,
@@ -610,7 +610,7 @@
 				81F18950245E9EB500F216DB /* ApplicationFillingAPI.swift in Sources */,
 				81DD4BFC2450017900A43CE7 /* ParametrPickerViewController.swift in Sources */,
 				8137050E2427FC51006E5CB7 /* UILabelExtension.swift in Sources */,
-				81FAB4D52430F44300309FA4 /* AdditionalInformationView.swift in Sources */,
+				81FAB4D52430F44300309FA4 /* TimetableView.swift in Sources */,
 				81F1893C245E9E0A00F216DB /* ApplicationFillingConfigurator.swift in Sources */,
 				814BF45224328ED300751EDD /* StatsView.swift in Sources */,
 				813B04D52422AA8C00573AA1 /* StudStatsInteractor.swift in Sources */,

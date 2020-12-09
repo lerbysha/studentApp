@@ -66,7 +66,7 @@ public final class ApplicationFillingViewController: UIViewController, Applicati
             case 1:
                 return
             case 2:
-                self.show(AdditionalInformationConfigurator.sharedInstance.configure(), sender: nil)
+                self.show(TimetableConfigurator.sharedInstance.configure(), sender: nil)
             case 3:
                 
                 self.show(StudStatsConfigurator.sharedInstance.configure(), sender: nil)

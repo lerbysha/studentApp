@@ -1,5 +1,5 @@
 //
-//  AdditionalInformationProvider.swift
+//  TimetableProvider.swift
 //  Student
 //
 //  Created by Artur Gaisin on 21.09.2020.
@@ -21,11 +21,11 @@ private func JSONResponseDataFormatter(_ data: Data) -> String {
     }
 }
 
-protocol AdditionalInformationProviderProtocol {
+protocol TimetableProviderProtocol {
     
 }
 
-final class AdditionalInformationProvider: AdditionalInformationProviderProtocol {
-    let provider = MoyaProvider<AdditionalInformationAPI>(plugins: [NetworkLoggerPlugin(configuration: .init(formatter: .init(responseData: JSONResponseDataFormatter),
+final class TimetableProvider: TimetableProviderProtocol {
+    let provider = MoyaProvider<TimetableAPI>(plugins: [NetworkLoggerPlugin(configuration: .init(formatter: .init(responseData: JSONResponseDataFormatter),
     logOptions: .verbose))])
 }

@@ -1,5 +1,5 @@
 //
-//  AdditionalInformationView.swift
+//  TimetableView.swift
 //  Student
 //
 //  Created by Artur Gaisin on 21.09.2020.
@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import SnapKit
 
-final class AdditionalInformationView: UIView {
+final class TimetableView: UIView {
     private let appearance = Appearance()
     
     lazy var imageView: UIImageView = {
@@ -186,7 +186,7 @@ final class AdditionalInformationView: UIView {
     }
 }
 
-extension AdditionalInformationView {
+extension TimetableView {
     public struct Appearance {
         let stackSpacing: CGFloat = 16
         let hostelText = "Требуется общежитие"

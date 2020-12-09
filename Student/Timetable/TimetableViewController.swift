@@ -1,5 +1,5 @@
 //
-//  AdditionalInformationViewController.swift
+//  TimetableViewController.swift
 //  Student
 //
 //  Created by Artur Gaisin on 21.09.2020.
@@ -8,15 +8,15 @@
 
 import UIKit
 
-protocol AdditionalInformationViewControllerInput: AdditionalInformationPresenterOutput {
+protocol TimetableViewControllerInput: TimetablePresenterOutput {
 }
 
-protocol AdditionalInformationViewControllerOutput {
+protocol TimetableViewControllerOutput {
 }
 
-class AdditionalInformationViewController: UIViewController, AdditionalInformationViewControllerInput {
-    let contentView = AdditionalInformationView()
-    var output: AdditionalInformationViewControllerOutput?
+class TimetableViewController: UIViewController, TimetableViewControllerInput {
+    let contentView = TimetableView()
+    var output: TimetableViewControllerOutput?
     let user: UserEntity = User.shared
     
     override func loadView() {

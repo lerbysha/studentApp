@@ -1,5 +1,5 @@
 //
-//  AdditionalInformationAPI.swift
+//  TimetableAPI.swift
 //  Student
 //
 //  Created by Artur Gaisin on 21.09.2020.
@@ -9,11 +9,11 @@
 import Foundation
 import Moya
 
-public enum AdditionalInformationAPI {
+public enum TimetableAPI {
     
 }
 
-extension AdditionalInformationAPI: TargetType {
+extension TimetableAPI: TargetType {
     public var baseURL: URL {
         return URL(string: "")!
     }

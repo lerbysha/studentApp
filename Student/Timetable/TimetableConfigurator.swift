@@ -1,5 +1,5 @@
 //
-//  AdditionalInformationConfigurator.swift
+//  TimetableConfigurator.swift
 //  Student
 //
 //  Created by Artur Gaisin on 21.09.2020.
@@ -9,13 +9,13 @@
 import UIKit
 import Foundation
 
-final class AdditionalInformationConfigurator {
-    static let sharedInstance = AdditionalInformationConfigurator()
+final class TimetableConfigurator {
+    static let sharedInstance = TimetableConfigurator()
     
     func configure() -> UIViewController {
-        let viewController = AdditionalInformationViewController()
-        let interactor = AdditionalInformationInteractor()
-        let presenter = AdditionalInformationPresenter()
+        let viewController = TimetableViewController()
+        let interactor = TimetableInteractor()
+        let presenter = TimetablePresenter()
         
         viewController.output = interactor
         interactor.output = presenter
