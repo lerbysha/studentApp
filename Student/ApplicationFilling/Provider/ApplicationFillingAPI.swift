@@ -15,7 +15,7 @@ public enum ApplicationFillingAPI {
 
 extension ApplicationFillingAPI: TargetType {
     public var baseURL: URL {
-        return URL(string: "")!
+        return URL(string: "https://portal-dis.kpfu.ru/e-ksu")!
     }
 
     public var path: String {
@@ -44,3 +44,4 @@ extension ApplicationFillingAPI: TargetType {
         return [:]
     }
 }
+

@@ -15,7 +15,7 @@ public enum EstimationAPI {
 
 extension EstimationAPI: TargetType {
     public var baseURL: URL {
-        return URL(string: "https://samokatus-backend.cloud.technokratos.com")!
+        return URL(string: "https://portal-dis.kpfu.ru")!
     }
 
     public var path: String {
